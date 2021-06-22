@@ -1,0 +1,12 @@
+<odoo>
+
+    <!-- Sale order menu -->
+    <menuitem
+        name="Import Product Variants"
+        action="action_product_variant_import"
+        id="product_variant_import_menu"
+        parent="sale.product_menu_catalog"
+        groups="product_variant_import.product_variant_import_group"
+    />
+
+</odoo>
